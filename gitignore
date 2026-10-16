@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------
+# CariesLoc-HB – files that should never be committed
+# ---------------------------------------------------------------
+
+# Clinical data (datasets and images are not distributed)
+dataset/
+dataset_*/
+datasets/
+data/
+external_dataset/
+*.cache
+
+# Experiment outputs
+runs/
+results/
+audit/
+wandb/
+mlruns/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
